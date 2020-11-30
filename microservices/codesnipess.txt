@@ -1,0 +1,20 @@
+All the steps
+
+
+#Enabling H2 Console
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:parkinglotdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=admin
+spring.datasource.password=admin
+
+para entrar a la bd
+http://localhost:8081/h2-console/
+
+Queries for Data.sql file
+INSERT INTO VEHICLEDTO VALUES (10,'MH001','Sahil');
+INSERT INTO VEHICLEDTO VALUES (9,'MH002','sam');
+
+entrar a swagger
+http://localhost:8081/swagger-ui.html
+
